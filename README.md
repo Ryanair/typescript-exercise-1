@@ -84,6 +84,18 @@ enum Base { A, T, G, C}
 const name: string = Base[Base.A];
 ```
 
+If you like, we have provided a file containing a sequence
+
+```
+collagen.ts
+```
+
+You may import it like this
+
+```ts
+import {collagen} from './collagen';
+```
+
 To compile and run your code
 
 ```bash
