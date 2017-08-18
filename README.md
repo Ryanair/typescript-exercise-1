@@ -72,7 +72,7 @@ and also when declaring a function
 
 ```ts
 const add = (x, y) => x + y; // Bad!
-const add: number = (x: number, y: number): number => x + y; // Good!
+const add = (x: number, y: number): number => x + y; // Good!
 ```
 
 ## Extra Help
